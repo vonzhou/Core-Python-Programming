@@ -1,3 +1,4 @@
+#P360
 
 class P1:
 	def foo(self):

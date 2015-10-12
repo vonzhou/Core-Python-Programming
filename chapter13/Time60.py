@@ -1,6 +1,8 @@
-
+#P372
 
 class Time60(object):
+	'Time60 - track hours and minutes'
+
 	def __init__(self, h, m):
 			self.hour = h
 			self.minute = m
@@ -23,6 +25,8 @@ mon = Time60(2, 30)
 tu = Time60(12, 40)
 
 print mon,tu
+print id(mon)
+
 print mon+tu
 mon += tu
-print mon
+print mon,id(mon)

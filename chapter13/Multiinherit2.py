@@ -1,3 +1,4 @@
+#P361
 
 class P1(object):
 	def foo(self):

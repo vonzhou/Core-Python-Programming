@@ -9,5 +9,6 @@ class RandSeq(object):
 	def next(self):
 		return choice(self.data)
 
-for item in RandSeq(("rock", "paper", "scissors")):
-	print item
+
+for i in range(10):
+	print RandSeq(("rock", "paper", "scissors")).next()

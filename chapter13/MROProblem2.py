@@ -4,7 +4,7 @@ class B(object):
 
 class C(object):
 	def __init__(self):
-		print "default constructor"
+		print "the default constructor"
 
 class D(B,C):
 	pass
