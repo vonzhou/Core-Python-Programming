@@ -1,6 +1,15 @@
+#P203
+
+seq = (23, "vonzhou", True, 34.99,)
 
 
-seq = (23, "vonzhou",True,34.99,)
+i = iter(seq)
+print i.next()
+print i.next()
+print i.next()
+print i.next()
+print i.next()
+
 for i in seq:
 	print i
 
