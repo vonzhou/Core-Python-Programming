@@ -2,7 +2,7 @@
 
 f = open('hello.txt', 'r')
 longest = max(len(x.strip()) for x in f)
-f.close() #...
+f.close() 
 
 print 'Longest Line:',longest
 
